@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.1'
-DESCRIPTION = 'Unofficial API of flaming.text'
+VERSION = '0.0.3'
+DESCRIPTION = 'Unofficial API of flamingtext.com'
 LONG_DESCRIPTION = 'My first Python package with a slightly longer description'
 
 setup(
