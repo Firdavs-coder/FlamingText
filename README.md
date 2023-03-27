@@ -1,7 +1,7 @@
 # FlamingText
 
 ```python
-from FlamingText import FlamingText
+from flamingText import FlamingText 
 obj = FlamingText()
 print(obj.process())
 ```
