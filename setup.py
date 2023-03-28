@@ -2,9 +2,9 @@ from setuptools import setup, find_packages
 import codecs
 import os
 
-VERSION = '0.0.5'
+VERSION = '0.0.6'
 DESCRIPTION = 'Unofficial API of flamingtext.com'
-long_description = 'My first Python package with a slightly longer description'
+long_description = 'FlamingText is free online logo generator that anyone can use to create a great logo in minutes! Just select one of our logo designs, and get started now!'
 
 here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
