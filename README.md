@@ -1,6 +1,6 @@
 # FlamingText
 
-Common use
+## Common use
 ```python
 from flamingText import FlamingText 
 obj = FlamingText()
@@ -8,6 +8,10 @@ print(obj.process())
 ```
 
 ## Parametres
+
+If you want to change some of these parametres, visit flamingtext.com and research how to change. I think, these all are easy to change from its view. If you want to make transparent background `backgroundResizeToLayers=on&backgroundRadio=1&backgroundColor=%23FFFFFF` . But remember, all effects do not accept the transparent background. To find out about it visit the flamingtext.com and do change settings.
+
+```
 _comBuyRedirect: false
 script: comics-logo
 text: Firdavs
@@ -130,3 +134,4 @@ jpgQuality: 85
 doScale: off
 scaleWidth: 240
 scaleHeight: 120
+```
