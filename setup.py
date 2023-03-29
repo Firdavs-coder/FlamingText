@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import codecs
 import os
 
-VERSION = '0.0.6'
+VERSION = '0.0.7'
 DESCRIPTION = 'Unofficial API of flamingtext.com'
 long_description = 'FlamingText is free online logo generator that anyone can use to create a great logo in minutes! Just select one of our logo designs, and get started now!'
 
