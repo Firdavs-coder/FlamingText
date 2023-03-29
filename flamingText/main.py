@@ -10,7 +10,7 @@ class FlamingText:
 
     def _generateParams(self):
         if len(self._kwargs) == 0:
-            return ""
+            raise Exception("Parametr name and script are required")
         return "&"+urlencode(dict(self._kwargs))
 
     def _generateURL(self):
@@ -23,5 +23,5 @@ class FlamingText:
 
 
 if __name__ == "__main__":
-    obj = FlamingText(text="Firdavs", script="fluffy-logo")
+    obj = FlamingText(text="Firdavs-coder", script="fluffy-logo")
     print(obj.process().text)
