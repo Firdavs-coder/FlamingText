@@ -7,12 +7,38 @@ obj = FlamingText(text="Firdavs-coder", script="fluffy-logo")
 print(obj.process().text)
 ```
 
-## How to get script or effect name ?
-To select a certain effect, you have to visit https://flamingtext.com/ and find any kind of effect. For example, the first one on the list is https://flamingtext.com/logo/Design-Comics?_variations=true. Visit the link and copy the image, which is in the center of the page. If it has not been changed, there has to be a WROOM image. Then copy the image URL and, as you see in the URL script query. You can find other details and parameter information on the website by editing the image and analysing the url, as described above.
+## How to Choose a Specific Effect on FlamingText
 
-## Parametres
+To select a particular text effect on FlamingText, follow these steps:
 
-If you want to change some of these parametres, visit https://flamingtext.com/ and research how to change. I think, these all are easy to change from its view. If you want to make transparent background `backgroundResizeToLayers=on&backgroundRadio=1&backgroundColor=%23FFFFFF` . But remember, all effects do not accept the transparent background. To find out about it visit the https://flamingtext.com/ and do change settings.
+1. Visit the website [FlamingText](https://flamingtext.com/) to explore the variety of effects available.
+
+2. For example, you can find the first effect on the list at [Design Comics Effect](https://flamingtext.com/logo/Design-Comics?_variations=true). Click on this link.
+
+3. On the page, you'll notice an image in the center. If it hasn't been modified, it should display a "WROOM" image.
+
+4. Copy the URL of this image.
+
+5. Analyze the URL to understand the script query parameters used.
+
+6. For more information and details on the available parameters, consider editing the image or further exploration on the website.
+
+By following these instructions, you'll be able to select your desired text effect and gain a better understanding of the available options on the FlamingText website.
+
+
+## Customizing Effect Parameters on FlamingText
+
+If you wish to modify any of these parameters, you can do so by visiting [FlamingText](https://flamingtext.com/) and exploring the customization options. Most of these adjustments are straightforward and can be made from the website's interface.
+
+For instance, if you want to make the background transparent, you can modify the parameters as follows:
+- `backgroundResizeToLayers=on`
+- `backgroundRadio=1`
+- `backgroundColor=%23FFFFFF`
+
+However, it's important to note that not all effects support a transparent background. To check if a specific effect allows for a transparent background, visit [FlamingText](https://flamingtext.com/) and adjust the settings accordingly.
+
+By visiting the website and experimenting with the customization options, you can tailor the text effects to your preferences.
+
 
 ```
 _comBuyRedirect: false
