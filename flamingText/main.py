@@ -1,6 +1,6 @@
 import requests
 from urllib.parse import urlencode
-from constants import url
+from .constants import url
 
 
 class FlamingText:
